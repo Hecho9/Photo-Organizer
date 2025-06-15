@@ -1,0 +1,9 @@
+organizador/
+├── __main__.py        # Ponto de entrada: só importa e executa a App
+├── interface.py       # Interface Tkinter (classe App)
+├── analise.py         # Funções de análise de arquivos (datas, hashes, phash, etc)
+├── organizador.py     # Funções de organização e cópia
+├── duplicados.py      # Funções de identificação e processamento de duplicados
+├── checkpoint.py      # Funções de checkpoint (salvar/carregar)
+├── relatorio.py       # Geração dos relatórios JSON
+├── config.py          # Constantes e configurações (extensões, meses, etc)
