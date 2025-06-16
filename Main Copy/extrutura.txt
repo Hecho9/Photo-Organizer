@@ -1,7 +1,10 @@
-organizador/
-├── main.py        # Ponto de entrada: só importa e executa a App
+oorganizador/
+├── main.py            # Ponto de entrada: só importa e executa a App
 ├── interface.py       # Interface Tkinter (classe App)
-├── analise.py         # Funções de análise de arquivos (datas, hashes, phash, etc)
+├── analise.py         # Funções de análise genéricas e integração dos módulos de mídia
+├── analise_imagem.py  # Funções de análise específicas para imagens
+├── analise_video.py   # Funções de análise específicas para vídeos
+├── analise_audio.py   # Funções de análise específicas para áudios
 ├── organizador.py     # Funções de organização e cópia
 ├── duplicados.py      # Funções de identificação e processamento de duplicados
 ├── checkpoint.py      # Funções de checkpoint (salvar/carregar)
